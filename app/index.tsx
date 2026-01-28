@@ -11,7 +11,7 @@ export default function Index() {
       }}
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
-      <Link href="/login/login">Go to Login</Link>
+      <Link href="/login/login" style={{ color: "red", fontSize: 18 , fontWeight: "bold"}}>Go to Login</Link>
     </View>
   );
 }
